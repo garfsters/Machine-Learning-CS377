@@ -1,2 +1,2 @@
-# CS377_F24
+# Mathematical Foundations for Machine Learning CS377_F24
 My final project from my class Mathematical Foundations of Machine Learning (CS377).
