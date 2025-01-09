@@ -28,7 +28,7 @@ This project focuses on predicting real estate prices using machine learning. St
       - Removed irrelevant columns, such as ID.
       - Handled missing values and outliers to ensure data quality.
   - **Feature Engineering**:
-      - Calculated Age of the property as 2024 - Year_Built.
+      - Calculated `Age` of the property as `2024 - Year_Built`.
       - Standardized numerical features to improve model performance.
    
   ## Model Performance
