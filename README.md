@@ -17,10 +17,10 @@ This project focuses on predicting real estate prices using machine learning. St
 - **Source**: [Housing Prices Regression](https://www.kaggle.com/datasets/denkuznetz/housing-prices-regression) on Kaggle.
 - **Description**: This dataset provides key factors driving real estate prices, suitable for regression analysis.
 - **Features**: Square footage, number of bedrooms, number of bathrooms, number of floors, year built, presence of amenities (garden, pool), garage size, location score, and distance to city center.
-    - Has_Garden: Indicates the presence (1) or absence (0) of a garden.
-    - Has_Pool: Indicates the presence (1) or absence (0) of a pool.
-    - Garage_Size: Size of the garage in square feet.
-    - Location_Score: A numerical score representing the desirability of the property's location.
+    - `Has_Garden`: Indicates the presence (1) or absence (0) of a garden.
+    - `Has_Pool`: Indicates the presence (1) or absence (0) of a pool.
+    - `Garage_Size`: Size of the garage in square feet.
+    - `Location_Score`: A numerical score representing the desirability of the property's location.
   
 # Project Workflow 
   ## Data Preprocessing
@@ -33,12 +33,12 @@ This project focuses on predicting real estate prices using machine learning. St
    
   ## Model Performance
   - **Ordinary Least Squares (OLS) Regression**:
-      - Achieved an R-Squared value of 0.9494, indicating that approzimatelyy 94.94% of the variance of property prices is explained by the model.
+      - Achieved an R-Squared value of `0.9494`, indicating that approzimatelyy 94.94% of the variance of property prices is explained by the model.
   - **Ridge Regression**:
-      - R-squared value: 0.9491
+      - R-squared value: `0.9491`
       - Utilized to address potential multicollinearity among features.
   - **Lasso Regression**:
-      - R-squared value: 0.9493
+      - R-squared value: `0.9493`
       - Utilized for feature selection by shrinking less important feature coefficients to zero. 
   ## Interactive Tool 
   Developed a user-friendly interfact where users can input property specifications to receive real-time price predicitions. The tool utilizes the trained regression models to provide accurate and immediate estimates.
